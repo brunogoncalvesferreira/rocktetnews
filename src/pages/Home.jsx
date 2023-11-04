@@ -36,7 +36,6 @@ export function Home() {
 
   function handleNotificationSuccess() {
     notify()
-    setEmail('')
   }
 
   return (
