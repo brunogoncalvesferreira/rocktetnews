@@ -90,7 +90,7 @@ export function Home() {
           href="/emails"
           className="text-button flex items-center gap-2 font-spartan text-sm font-bold mt-10 md:mt-28"
         >
-          deixe-me ler primeiro
+          veja os e-mails salvos
           <img src={arrow} alt="Ícone de seta para direita" />
         </a>
       </section>
