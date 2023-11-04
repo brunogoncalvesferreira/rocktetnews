@@ -27,7 +27,11 @@ export function Home() {
 
   async function sendEmailDatabase(event) {
     event.preventDefault()
-    await axios.post('https://api-rocketnews.onrender.com/email', { email })
+    try {
+      await axios.post('https://api-rocketnews.onrender.com/email', { email })
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   function handleNotificationSuccess() {
